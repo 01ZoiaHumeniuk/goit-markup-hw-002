@@ -1,0 +1,39 @@
+:root{
+  --accent-color:#2196F3 ;
+  --title-text-color:#212121;
+  --text-paragraph-color:#757575;
+  --main-color:#FFFFFF;
+  --second-color:#2F303A;
+  --text-logo:font-family: 'Raleway',
+      sans-serif;
+  --main-text: font-family: 'Roboto',
+      sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  Padding: 0;}
+
+.titely-body{
+  list-style: none;
+}
+.header-logo{
+    font-weight: 700;
+      font-size: 26px;
+      line-height:1,1923;
+      letter-spacing: 0.03em;
+      color: #000000;
+  }
+
+.header-web {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1,1923;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  }
