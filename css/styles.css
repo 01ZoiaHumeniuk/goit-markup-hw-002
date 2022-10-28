@@ -167,6 +167,7 @@ text-decoration: none;
   color: var(--main-color);
   background-color:var(--accent-color);
 }
+
 /* -----------проекти------------ */
 .titel{
 color: var(--title-text-color);
