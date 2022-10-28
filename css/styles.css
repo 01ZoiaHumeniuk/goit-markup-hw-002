@@ -4,36 +4,180 @@
   --text-paragraph-color:#757575;
   --main-color:#FFFFFF;
   --second-color:#2F303A;
-  --text-logo:font-family: 'Raleway',
+  --footer-color:rgba(255, 255, 255, 0.6);
+  --color-button:#F5F4FA;
+  --text-logo:front-family:'Raleway',
       sans-serif;
-  --main-text: font-family: 'Roboto',
+  --main-text:front-family'Roboto',
       sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  Padding: 0;}
 
 .titely-body{
-  list-style: none;
-}
-.header-logo{
-    font-weight: 700;
-      font-size: 26px;
-      line-height:1,1923;
-      letter-spacing: 0.03em;
-      color: #000000;
-  }
-
-.header-web {
+  font-family:var(--main-text);
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1,1923;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
+  font-size: 14px;
+  line-height: 1,1428;
+}
+.box-contact,.position-list,.priorities-text{
+  font-weight: 400;
+}
+/* відміна верхнього поля */
+.field-none{
+  margin-top: 0;
+  Padding: 0
+}
+/* ------------відміна стилю ul -------------*/
+.list{
+  list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+/* ------відміна стилю посилань -----*/
+.style-none
+{
+text-decoration: none;
+  color: inherit;
+}
+.heddin{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);}
+  .header-web,.header-Studio,.footer-web,.footer-studio {
+    color:var(--accent-color);
+    font-family: var(--text-logo);
+    
+      font-size: 26px;
+      line-height: 1,1923;
+      letter-spacing: 0.03em;
   }
+.header-Studio,.footer-studio{
+  color: var(--title-text-color);
+}
+.header-link, .header-contaktes{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+/* -----------ховер фокус----------- */
+.list .header-link:hover,
+.list .header-contaktes:hover, 
+.box-contact:hover{
+  color: var(--accent-color);
+}
+.list .header-link:focus,
+.list .header-contaktes:focus,
+.background{
+  background-color: var(--second-color);
+}
+.box-contact:focus{
+  background-color: var(--color-button);
+}
+/*  -------------маін--------  */
+.order-text{
+  background-color: var(--second-color);
+  color: var(--main-color);
+  font-weight: 900;
+    font-size: 44px;
+    line-height: 1,3636;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.order-button{
+  color:var(--main-color);
+  background-color: var(--accent-color) ;
+    font-size: 16px;
+    line-height: 1,875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border: 0;
+    padding: 0;
+}
+/* -----------список приорітетів компані */
+.priorities-title{
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+.priorities-text{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--text-paragraph-color);
+}
+/* -----img list---- */
+.link{color: var(--title-text-color);
+  font-weight: 700;
+    font-size: 36px;
+    line-height: 1,1666;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* ------команда компанії------- */
+.nemes-list,.position-list{
+  color: var(--title-text-color);
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1,1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.position-list{
+  color: var(--text-paragraph-color);
+
+}
+/* --------------підвал ----------------*/
+.box-address{
+  background-color: var(--second-color);
+}
+.address,.box-contact{
+  color: var(--main-color);
+    font-size: 14px;
+    line-height: 1,7142;
+    letter-spacing: 0.03em;
+}
+.box-contact{
+  color: var(--footer-color);
+}
+.footer-studio{
+  color: var(--main-color);
+}
+/* -------------сторинка портфоліо--------- */
+.button-filter{
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+  color: var(--title-text-color);
+  background-color: var(--color-button);
+  border: 0;
+  padding: 0;
+}
+
+.button-filter:hover{
+  color: var(--main-color);
+  background-color:var(--accent-color);
+}
+/* -----------проекти------------ */
+.titel{
+color: var(--title-text-color);
+font-weight: 700;
+  font-size: 18px;
+  line-height:1,6666;
+  letter-spacing: 0.06em;
+}
+.titel-content{
+  color: var(--text-paragraph-color);
+  font-size: 16px;
+  line-height: 1,6666;
+  letter-spacing: 0.03em;
+}
