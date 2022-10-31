@@ -1,4 +1,5 @@
 :root{
+  --background:#188CE8;
   --accent-color:#2196F3 ;
   --title-text-color:#212121;
   --text-paragraph-color:#757575;
@@ -88,9 +89,7 @@ text-decoration: none;
 .background{
     background-color: var(--second-color);
 }
-.box-contact:focus{
-  background-color: var(--color-button);
-}
+
 .order-button:hover,
 .order-button:focus{
   color:var(--color-button) ;
@@ -108,7 +107,7 @@ text-decoration: none;
     text-transform: uppercase;
 }
 .order-button{
-  background-color: var(--color-button);
+  background-color: var(--accent-color);
   color: var(--title-text-color);
   font-family: var(--main-text);
   cursor:pointer;
