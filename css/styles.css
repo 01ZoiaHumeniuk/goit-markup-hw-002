@@ -93,13 +93,13 @@ text-decoration: none;
 
 .order-button:hover,
 .order-button:focus{
-  color:var(--color-button) ;
-  background-color:#188CE8 ;
+  background-color:var(--background);
+  color: var(--main-colo);
 }
 /*  -------------маін--------  */
 .order-text{
+  color: var(--main-colo);
   background-color: var(--second-color);
-  color: var(--main-color);
   font-weight: 900;
     font-size: 44px;
     line-height: 1.3636;
@@ -109,7 +109,7 @@ text-decoration: none;
 }
 .order-button{
   background-color: var(--accent-color);
-  color: var(--title-text-color);
+  color: var(--main-colo);
   font-family: var(--main-text);
   cursor:pointer;
   font-weight: 700;
